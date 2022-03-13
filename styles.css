@@ -1,0 +1,232 @@
+.hidden {
+    display: none
+}
+
+@font-face {
+    font-family: nexa-regular;
+    src: url("fonts/nexa-regular.otf") format("opentype");s
+}
+@font-face {
+    font-family: nexa-bold;
+    src: url("fonts/nexa-bold.otf") format("opentype");s
+}
+
+@font-face {
+    font-family: nexa-book;
+    src: url("fonts/nexa-book.otf") format("opentype");s
+}
+.slider-nav img {
+    padding: 8px;
+}
+
+.padding-4px {
+    height: 4px;
+}
+
+.padding-8px {
+    height: 8px;
+}
+
+.padding-16px {
+    height: 16px;
+}
+
+.padding-32px {
+    height: 32px;
+}
+
+.padding-20px {
+    height: 20px;
+}
+
+.padding-120px {
+	height: 120px;
+}
+
+.padding-40px {
+    height: 40px;
+}
+
+.padding-60px {
+	height: 60px;
+}
+
+.marketplace-header {
+    font-family: "nexa-regular", sans-serif;
+    font-size: 17px;
+}
+.marketplace-subheader {
+    font-family: "nexa-bold", sans-serif;
+    font-size: 23px;
+}
+.marketplace-icon {
+    width: 27px;
+    margin-right: 8px;
+    margin-top: -6px;
+}
+a.property-card {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    font-size: 16px;
+}
+
+a.property-card:hover {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+     opacity: 0.75;
+}
+
+.thumbnail {
+    border: 13px white solid;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 25%);
+    margin-bottom: 16px;
+}
+
+.thumbnail-bigger {
+    border: 13px white solid;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 25%);
+}
+
+.map-icon-bigger {
+    width: 13px;
+    height: 19px;
+    margin-right: 5px;
+}
+
+.knab-icon {
+    width: 11px;
+    height: 11px;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+.price {
+    color: #C4A169;
+    font-size: 16px;
+    font-family: "nexa-bold", sans-serif;
+    margin-bottom: 0px;
+}
+
+.name {
+	font-size: 16px;
+    font-weight: bold;
+    font-family: "nexa-bold", sans-serif;
+    margin-bottom: 0px;
+
+}
+.city {
+    margin-bottom: 0px;
+    font-family: "nexa-regular", sans-serif;
+    color: #7D7D7D;
+    font-size: 14px;
+	
+}
+
+.knab-icon-bigger {
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+.price-bigger {
+    color: #C4A169;
+    font-size: 18px;
+    font-family: "nexa-bold", sans-serif;
+    margin-bottom: 0px;
+}
+
+.name-bigger {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "nexa-bold", sans-serif;
+    margin-bottom: 0px;
+
+}
+.city-bigger {
+    margin-bottom: 0px;
+    font-family: "nexa-regular", sans-serif;
+    color: #7E7E7E;
+    font-size: 16px;
+    
+}
+
+.body-1 {
+    font-family: "nexa-book", sans-serif;
+    font-size: 18px;
+}
+
+.body-1-header {
+    font-family: "nexa-bold", sans-serif;
+    font-size: 18px;
+}
+
+a.button-gold {
+    text-align: center;
+    display: block;
+    background: #C4A169;
+    padding: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "nexa-bold", sans-serif;
+    font-size: 16px;
+}
+
+
+a.button-gold-inverse {
+    text-align: center;
+    display: block;
+    padding: 17px;
+    color: #C4A169;
+    text-decoration: none;
+    font-family: "nexa-bold", sans-serif;
+    font-size: 16px;
+    border: 1px #C4A169 solid;
+}
+
+a.button-gold-inverse:hover {
+    color: #C4A169;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+
+a.button-gold:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+ul.list-1 {
+    padding: 0px;
+}
+
+.list-1 li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+
+.back-icon {
+    position: absolute;
+    z-index: 1;
+    width: 23px;
+    height: 37px;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+.back-icon:hover {
+    opacity: 0.75;
+}
+a.GPS-address {
+    color: #0d6efd;
+    text-decoration: none;
+}
+a.GPS-address:hover {
+  opacity: 0.75;
+}
+
+.slider-nav img:hover {
+    cursor: pointer;
+}
